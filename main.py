@@ -1,11 +1,11 @@
 import cv2
 from tracker import *
 
-#from caserial import *
+from caserial import *
 
 #creating serial communication with arduino
 
-#arduino = SerialObject()
+arduino = SerialObject()
 
 # Create tracker object
 tracker = EuclideanDistTracker()
